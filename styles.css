@@ -1,0 +1,61 @@
+html{
+	position: relative; /*footer will always be at the bottom of the page*/
+	min-height: 100%;
+}
+body{
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'Cambria';
+	font-size: 24px;
+	background-size: cover;
+	background-position: center;
+	margin: 0 0 60px; /*leaves space for footer of 50px height*/
+	padding: 0 0 20px; /*provides a gap between text and footer*/
+}
+#aglogo{
+	display: block;
+	float: left;
+	width: 45px;
+	border-radius: 40px;
+	padding: 10px 10px 10px 10px;
+}
+header{
+	background-color: #FFEBCD;
+	margin: 0px 0px 20px 0px;
+}
+#headlist{
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	margin: 0;
+	overflow: hidden;
+}
+#headli{
+	float: right;
+}
+#headli a{
+	display: block;
+	padding: 12px 17px 12px 17px;
+	color: #216885;
+	text-align: right;
+	text-decoration: none;
+}
+#headli a:hover{
+	background-color: #FFE4C4;
+}
+p{
+	margin: 2% 15% 2% 15%;
+}
+#footlist{
+	font-size: 17px;
+	text-align: center;
+}
+#footli{
+	display: inline;
+	padding: 10px 15px 0px 15px;
+}
+footer{
+	position: absolute;
+	bottom: 0; /*keeps it at bottom of page*/
+	height: 60px;
+	background-color: #FFEBCD;
+	width: 100%;
+}

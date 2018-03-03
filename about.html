@@ -3,76 +3,10 @@
 <head>
 	<title>Aaron Gu</title>
 
-	<link rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<style type="text/css">
-	html{
-		position: relative; /*footer will always be at the bottom of the page*/
-		min-height: 100%;
-	}
-	body{
-		font-family: 'Playfair Display', serif;
-		background-size: cover;
-		background-position: center;
-		margin: 0 0 50px; /*leaves space for footer of 50px height*/
-		padding: 0 0 10px;
-	}
-	#aglogo{
-		display: block;
-		float: left;
-		width: 45px;
-		border-radius: 40px;
-		padding: 7px 10px 10px 13px;
-	}
-	header{
-		background-color: #FFEBCD;
-		margin: 0px 0px 20px 0px;
-	}
-	#headlist{
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		overflow: hidden;
-	}
-	#headli{
-		float: right;
-		padding: 5px 0px 5px 0px;
-	}
-	#headli a{
-		display: block;
-		padding: 12px 17px 12px 17px;
-		color: #216885;
-		text-align: right;
-		text-decoration: none;
-	}
-	#headli a:hover{
-		background-color: #FFE4C4;
-	}
-	p{
-		margin: 2% 15% 2% 15%;
-	}
-	
-	#footlist{
-		font-size: 12px;
-		text-align: center;
-	}
-	#footli{
-		display: inline;
-		padding: 10px 15px 0px 15px;
-	}
-	footer{
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		height: 50px;
-		background-color: #FFEBCD;
-		width: 100%;
-		overflow: hidden;
-	}
-
-
-	#about{
+	#aboutpic{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -83,7 +17,7 @@
 
 
 <header>
-	<a href="index.html"><img src="aglogo.png" id="aglogo"></a>
+	<img src="aglogo.png" id="aglogo">
 	<ul id="headlist">
 		<li id="headli"><a href="blog.html">Blog</a></li>
 		<li id="headli"><a href="projects.html">Projects</a></li>
@@ -93,22 +27,25 @@
 </header>
 
 
-<body background="dust_scratches.png">
-	<img src="frontrotunda.jpg" id="about">
+<body>
+
+	<!-- make this section a rotating slideshow -->
+	
+	<img src="frontrotunda.jpg" id="aboutpic">
 	<p>
 		I am a first-year student at the University of Virginia studying computer science. I'm from Herndon, Virginia, and I can truly say I've found a new home at UVA. I live in the Brown Residential College, where we live in uniquely laid-out suites and participate in tons of activities (recent ones include watching Black Panther, dueling in a Nerf war, and renting out an entire trampoline park for a night). And it's really close to the dining hall, libraries, gym, and classes. You can usually find me in my room, in the library, or playing pool in the game room.
 	</p>
-	<img src="rakeathon.jpg" id="about">
+
+	<img src="rakeathon.jpg" id="aboutpic">
 	<p>
 		I'm also involved in the engineering community through Theta Tau, a professional engineering fraternity. I rushed my first semester, and I really enjoyed the friendship and mentorship of the brothers. Theta Tau is a great way for me to meet engineers outside of my major and get involved in community service for Charlottesville. The picture above is a few of us at the 2017 Habitat for Humanity Rake-a-thon!
 	</p>
-	<p>
-		
-	</p>
-	<img src="darthvader.jpg" id="about">
+
+	<img src="darthvader.jpg" id="aboutpic">
 	<p>
 		I'm a huge Star Wars fan. Have a picture of Darth Vader from Rogue One.
 	</p>
+
 </body>
 
 
