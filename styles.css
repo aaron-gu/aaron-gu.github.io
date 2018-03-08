@@ -5,7 +5,7 @@ html{
 body{
 	/*font-family: 'Playfair Display', serif;*/
 	font-family: 'Cambria';
-	font-size: 24px;
+	font-size: 18px;
 	background-size: cover;
 	background-position: center;
 	margin: 0 0 60px; /*leaves space for footer of 50px height*/
@@ -45,7 +45,7 @@ p{
 	margin: 2% 15% 2% 15%;
 }
 #footlist{
-	font-size: 17px;
+	font-size: 14px;
 	text-align: center;
 }
 #footli{
@@ -55,7 +55,7 @@ p{
 footer{
 	position: absolute;
 	bottom: 0; /*keeps it at bottom of page*/
-	height: 60px;
+	height: 50px;
 	background-color: #FFEBCD;
 	width: 100%;
 }
